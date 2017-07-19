@@ -1,7 +1,7 @@
 from fabric.api import local, task
 from fabric.context_managers import lcd
 
-BASE_DIR = 'src'
+BASE_DIR = '{{ cookiecutter.src_dir }}'
 
 
 @task
